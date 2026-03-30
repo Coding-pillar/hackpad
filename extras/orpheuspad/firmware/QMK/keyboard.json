@@ -1,7 +1,7 @@
 {
-    "manufacturer": "Alex Ren",
-    "keyboard_name": "orpheuspad",
-    "maintainer": "qcoral",
+    "manufacturer": "Noah Chung",
+    "keyboard_name": "Davinci editor thingy",
+    "maintainer": "coderpillar",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
