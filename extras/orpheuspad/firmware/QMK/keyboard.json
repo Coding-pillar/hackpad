@@ -3,7 +3,6 @@
     "keyboard_name": "Davinci editor thingy",
     "maintainer": "coderpillar",
     "bootloader": "rp2040",
-    "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
         "command": false,
@@ -13,8 +12,9 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP27", "GP26", "GP4"],
-        "rows": ["GP29", "GP28"]
+ "direct": [
+            ["GP27", "GP28", "GP29", "GP6"]
+        ]
     },
     "processor": "RP2040",
     "url": "https://hackpad.hackclub.com",
@@ -26,11 +26,10 @@
     "layouts": {
         "LAYOUT": {
             "layout": [
-                {"matrix": [0, 0], "x": 1, "y": 1},
-                {"matrix": [0, 1], "x": 2, "y": 0},
-                {"matrix": [0, 2], "x": 2, "y": 1},
-                {"matrix": [1, 0], "x": 0, "y": 0},
-                {"matrix": [1, 1], "x": 1, "y": 0},
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0}
             ]
         }
     }
