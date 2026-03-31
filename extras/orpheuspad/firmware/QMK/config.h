@@ -1,5 +1,5 @@
-#define ENCODER_A_PINS { GP2 }
-#define ENCODER_B_PINS { GP1 }
+#define ENCODER_A_PINS { GP7 }
+#define ENCODER_B_PINS { GP0 }
 
 // #define WS2812_DI_PIN GP3
 // #define RGBLIGHT_LED_COUNT 2
